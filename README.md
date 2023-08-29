@@ -1,6 +1,7 @@
 # PK Online HRIS
 
-## Entity Relational Diagram (ERD) - Database Schema
+## REST API
+
 <img width="1245" alt="image" src="https://github.com/deolorensa/jobseeker/assets/84265981/19bb6942-23a4-4bb6-af3f-5a5ffb3a3ca5">
 
 
