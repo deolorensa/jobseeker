@@ -15,7 +15,7 @@ class Candidate extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'candidate_id' => $this->id,
+            'id' => $this->id,
             'email' => $this->email,
             'phone_number' => $this->phone_number,
             'full_name' => $this->full_name,
@@ -24,8 +24,8 @@ class Candidate extends JsonResource
             'gender' => $this->gender,
             'year_exp' => $this->year_exp,
             'last_salary' => $this->last_salary,
-            'created_at' => $this->created_at->format('d/m/Y'),
-            'updated_at' => $this->updated_at->format('d/m/Y'),
+            'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
         ];
     }
 }
